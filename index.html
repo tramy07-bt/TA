@@ -87,7 +87,7 @@
       </div>
      </div>
      <div class="content">
-      <p id="category" class="eyebrow canva-tag">CHỦ ĐỀ 01 · BỨC TRANH ĐÔ THỊ</p>
+      
       <h1 id="question">Đây là thành phố nào?</h1>
       <div id="options" class="options canva-list" role="group" aria-label="Các đáp án"></div>
       <div id="feedback" class="feedback canva-text" role="status" aria-live="polite"></div>
@@ -119,7 +119,7 @@
       $("counter").textContent=String(current+1).padStart(2,"0")+" / 10";
       $("progress-fill").style.width=((current+1)/questions.length*100)+"%";
       document.querySelector(".progress").setAttribute("aria-valuenow",current+1);
-      $("category").textContent="CHỦ ĐỀ "+String(current+1).padStart(2,"0")+" · "+q.topic.toUpperCase();
+      
       $("question").textContent=q.question;
       $("image-title").textContent=q.title;
       $("image-subtitle").textContent=q.subtitle;
